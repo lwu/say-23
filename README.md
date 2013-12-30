@@ -1,4 +1,4 @@
-Stanford Code Poetry Slam entry / November 2013
+Stanford Code Poetry Slam entry / November 2013  
 Leslie Wu <lwu2@cs.stanford.edu>
 
 ```ruby
@@ -11,7 +11,7 @@ h=Nokogiri::HTML(`curl http://www.biblegateway.com/passage/?search=Psalm+23&vers
 
 ## installation
 
-'gem install nokogiri' via rubygems if needed.
+'gem install nokogiri' via rubygems if needed. Note: relies on Darwin 'say' Speech Synthesis Manager.
 
 ## performance
 
@@ -30,7 +30,7 @@ For ` use backquote or left single quote. Possibly even tic.
 
 Say dot instead of period. You can say 'open brace' 'close brace' for { } and pipe for |.
 
-One reading is found in file 'say23.english'.
+One reading is found in file ['say23.english'](https://github.com/lwu/say-23/blob/master/say23.english).
 
 \#thx
 
